@@ -50,6 +50,7 @@ Weave lets you define a virtual network, so that containers in other hosts can c
 - Maybe use Remote Docker API???: 
   + https://github.com/weaveworks/weave/issues/312
   + https://github.com/weaveworks/weave/issues/236
+
 #### ===> difficult
 
 ### Demo
