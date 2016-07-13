@@ -16,9 +16,12 @@ Weave Scope is a visualization, and monitoring tool for Docker and Kubernetes. I
 - Weave Scope has a simple REST API, but it's undocumented.
 - Weave Scope have a web brower interface so we can directly query its API and get a feed of container connections and metrics.
 - Simple Example:
-  + GET http://localhost:4040/api/topology {   {name: "Containers", url: "/api/topology/containers"},   ... }
-  + GET http://localhost:4040/api/topology/containers {   nodes: {    “123...”: {     “adjacency”: [‘456...“],   ...  } }
-  + GET http://localhost:4040/api/topology/containers/123…
+  + GET http://localhost:4040/api/topology
+  + GET http://localhost:4040/api/topology/containers
+  + GET http://localhost:4040/api/topology/hosts
+  + GET http://localhost:4040/api/topology/containers-by-hostname
+  + GET http://localhost:4040/api/reports
+  + GET http://localhost:4040/api/probes
 
 ## Reference
 - https://www.weave.works/docs/
